@@ -34,7 +34,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-    array_fin=[]
     array.each_with_index.map {|e,index| index==1 ? e : e+'s'}
-    array_fin
 end
