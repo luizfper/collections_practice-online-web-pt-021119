@@ -23,7 +23,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-    array.map {|word| word[0..1]+'$'+word[3..word.size]}
+    array.each {|word| word[2]='$'}
 end
 def find_a(array)
     array.select{|a|a[0]=='a'}
